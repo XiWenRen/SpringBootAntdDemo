@@ -1,0 +1,8 @@
+{
+  "entry":"src/main/resources/static/index.js",
+  "outputPath":"src/main/resources/static/dist",
+  "devtool":"eval-source-map",
+  "extraBabelPlugins": [
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ]
+}
